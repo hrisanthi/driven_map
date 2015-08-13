@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -70.25532600,43.661471]
+      },
+      "properties": {
+        "name": "Portland ",
+        "desciption": "The Somali civil war began in May of 1986 and continues to this day. In the early years of the 21st century, a number of refugees from the war were resettled in Atlanta. From there, many immigrated to Lewiston and Portland, Maine in pursuit of better education and economic mobility. It is estimated that 10,000 Somali immigrants now live in Lewiston and Portland making Maine home to the highest concentration of Somalis in the U.S. The transition hasn’t been without bumps, and the Somalis’ new neighbors, including the mayor of Lewiston, weren’t always welcoming. Through our storytelling, we will explore what life is like for women in the Somali community in Maine and how they shape their identity as women and immigrants. There’s so much to learn."
+
+      }
+    },
+
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [ -71.05888,42.360082]
+          },
+          "properties":{
+              "name":"Boston",
+              "desciption": "This story starts back in the 19th century. As a result of the great potato famine, over 35,000 Irish immigrants arrived in Boston Harbor in 1847. The Anglo-saxon residents of Boston didn’t take kindly to the influx of Irish Catholics. This led to policies of land, housing and employmen discrimination against the Iris So what of all that now--over 150 years later? Do the children grandchildren and great grandchildren of those original immigrant still connect to the stories of their ancestors and how do the stories affect the identity of Irish-Americans living in Boston today?"
+
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [ -74.005941,40.712784]
+          },
+          "properties":{
+              "name":"New York City",
+              "desciption": "New York City has long had the reputation of being a place of opportunity. Albanian emigrants ventured to the U.S. in search of many different things. Some were seeking economic opportunity, while others needed an escape from war and persecution. Today, the largest Albanian-American community calls New York City home, and it’s a rapidly expanding population. This community is close to our heart because our teammate Hrisanthi Kroi emigrated from Albania--granted she ended up in Asheville and not New York. We’re excited to get to know the Albanian community in New York and understand how women balance their Albanian and American identities."
+
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [ -81.632623,38.349820]
+          },
+          "properties":{
+              "name":"Charleston",
+              "desciption": "When you think West Virginia, you probably think coal mines and mountain views. You probably don’t think about the large Filipino population that calls West Virginia’s mountains and valleys home. Filipinos make up the largest immigrant community in West Virginia. In total, the United States has a population of over 1.8 million Filipino immigrants. On a political level, the relationship between the Philippines and the United States is strong, but has historically been complicated by the American colonization of the island nation. So what is it like to be a Filipino living in West Virginia today? How are women’s identity shaped by the merging of two cultures and how does the past colonial relationship impact that identity."
+
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [ -85.758456,38.252665]
+          },
+          "properties":{
+              "name":"Louisville",
+              "desciption": "In 2011, a protest against the Assad regime’s authoritarian policies turned into a deadly and ongoing civil war. The UNHCR estimates that over 9 million Syrians have fled their homes since the beginning of the conflict. Syria’s neighbors have absorbed millions of refugees and many criticize the hesitation of the U.S. and Europe to offer haven. The United States has offered asylum to fewer than 1,000 Syrian refugees. Last February, 21 of those were resettled in Louisville, Kentucky. What is life like for the women of those 21? How do they find their voice and identity as Syrian refugees in the U.S. while their nation remains in the midst of horrific war?"
+
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [ -81.379236,28.538335]
+          },
+          "properties":{
+              "name":"Orlando",
+              "desciption": "Florida’s proximity to the Caribbean has created a more diverse community than the stereotypes of Floridian retirees suggests. The population of Trinidadian and Tobagonian emigrants to the Miami and Orlando areas is diverse in itself. The island nation’s population is a mix of ethnic, religious and racial identities, and the immigrant population in the U.S. is no different. On a socio-economic level, waves of Trinidadian and Tobagonian immigrants range from poorer classes looking for economic opportunity to elite classes looking to escape the recession that gripped the country in the latter half of the 20th century. How is this complex identity affected by immigration to the U.S.? How to Trinidadian and Tobagonian-American women live, love and define themselves in the Orlando sunshine? "
+
+          }
+        }
+    ]
+    }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Driven Map</title>
+    <style>
+      html, body, #map-canvas {
+        height: 270px;
+        width: 500px;
+        margin: 0;
+        padding: 0;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        line-height: 25px;
+      }
+
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+    <script>
+
+    function initialize() {
+      // Create a simple map.
+      map = new google.maps.Map(document.getElementById('map-canvas'), {
+        zoom: 4,
+        center: {lat:37.540725, lng: -77.436048}
+
+      });
+
+    map.data.loadGeoJson('places.json');
+
+    map.data.addListener('click', function(event) {
+        document.getElementById('name').textContent=
+            event.feature.getProperty("name");
+        document.getElementById('description').textContent=
+            event.feature.getProperty("desciption");
+ });
+}
+
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+    <h1 id="name"></h1>
+    <p id="description"></p>
+  </body>
+</html>
